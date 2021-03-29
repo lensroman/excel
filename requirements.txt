@@ -1,0 +1,37 @@
+Webpack {
+    (imports/exports),
+    Babel,
+    SCSS,
+    Eslint,
+    2 Modes {
+        - Dev {
+            Dev Server,
+            SourceMaps,
+            Eslint,
+            Not Minified JS & CSS
+        }
+        - Prod {
+            Minified Code
+        }
+    }
+}
+
+Git (gitFlow) {
+
+    Production {
+        1.0 (крупное обновление).0 (небольшие изменения)
+    }
+
+    Development {
+        1.0.2
+
+        1. основная версия
+        2. создание новой ветки
+        3. pull request в основную версию,
+            проверка и согласие остальных членов команды
+    }
+
+
+}
+
+
