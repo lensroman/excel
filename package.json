@@ -1,0 +1,49 @@
+{
+  "name": "excelcourse",
+  "version": "1.0.0",
+  "description": "Pure JS Excel Application",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=development webpack serve --open",
+    "build": "cross-env NODE_ENV=production webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lensroman/excel.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "excel"
+  ],
+  "author": "Roman Lensky, <lensroman@bk.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lensroman/excel/issues"
+  },
+  "homepage": "https://github.com/lensroman/excel#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^8.1.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.2.0",
+    "eslint-config-google": "^0.14.0",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.4.0",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.23.0",
+    "eslint-loader": "^4.0.2"
+  }
+}
