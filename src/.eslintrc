@@ -12,7 +12,9 @@
     "indent": "off",
     "quotes": "off",
     "eol-last": "off",
-    "operator-linebreak": "off"
+    "operator-linebreak": "off",
+    "arrow-parens": "off",
+    "max-len": "off"
   },
   "extends": ["eslint:recommended", "google"]
 }
